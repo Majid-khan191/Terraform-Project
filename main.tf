@@ -1,7 +1,7 @@
 provider "aws" {
     region = "ap-south-1"
-    access_key = "AKIA4ITUXTLS3TWJURXB"
-    secret_key = "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"
+    access_key = "AKIAZVAVBUYHETHTKAUC"
+    secret_key = "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"
 }
 
 
@@ -129,7 +129,7 @@ resource "aws_instance" "my-server" {
               sudo apt update -y
               sudo apt install apache2 -y
               sudo systemctl start apache2
-              sudo bash -c "echo Hi there, its Mubashra welcome to my webserver > /var/www/html/index.html"
+              sudo bash -c "echo Hi there, its Majid welcome to my webserver > /var/www/html/index.html"
               EOF
 
   tags = {
